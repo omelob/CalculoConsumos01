@@ -1,0 +1,46 @@
+{
+  "entradas": [
+    {
+      "nombre": "TV Samsung 40 pulgadas",
+      "potencia": 120,
+      "uso": 10,
+      "consumoE": 1200,
+      "id": 1
+    },
+    {
+      "nombre": "8 Bombillas de 12w",
+      "potencia": 96,
+      "uso": 4,
+      "consumoE": 384,
+      "id": 2
+    },
+    {
+      "nombre": "Decodificador de Cable",
+      "potencia": 20,
+      "uso": 24,
+      "consumoE": 480,
+      "id": 3
+    },
+    {
+      "nombre": "Router Internet",
+      "potencia": 12,
+      "uso": 24,
+      "consumoE": 288,
+      "id": 4
+    },
+    {
+      "nombre": "Nevera",
+      "potencia": 200,
+      "uso": 4,
+      "consumoE": 800,
+      "id": 5
+    },
+    {
+      "nombre": "ducha electrica",
+      "potencia": 1500,
+      "uso": 1,
+      "consumoE": 1500,
+      "id": 6
+    }
+  ]
+}
