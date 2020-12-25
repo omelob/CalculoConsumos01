@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const clienteAxios = axios.create({
-    baseURL: 'https://my-json-server.typicode.com/omelob/ClaculoConsumosDBJson'
+    baseURL: 'https://cryptic-scrubland-84623.herokuapp.com'
 });
 
 export default clienteAxios;
