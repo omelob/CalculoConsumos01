@@ -11,9 +11,7 @@ import { obtenerEntradasAction } from "../actions/entradaActions";
 
 
 
-const Entradas = () => {
-
-    
+const Entradas = () => {    
 
     const dispatch = useDispatch();
 
@@ -123,10 +121,8 @@ const Entradas = () => {
             doc.autoTable.previous.finalY + 22
         );
 
-        doc.save(`Mi_consumo_${new Date().toISOString()}.pdf`);
-        
-        
-       
+        doc.save(`Mi_consumo_${new Date().toISOString()}.pdf`);        
+    
     };
 
     return (  
