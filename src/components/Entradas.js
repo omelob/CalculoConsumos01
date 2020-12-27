@@ -140,14 +140,15 @@ const Entradas = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    { entradas.length === 0 ? 'No hay Entradas' : (
+                    { entradas.length > 0 ?  (
                         entradas.map( entrada =>(
                             <Entrada 
                                 key={entrada.id}
                                 entrada={entrada}
                             />
                         ))
-                    )}
+                    )
+                    : (<tr><td>No hay Consumos</td></tr>)}
                 </tbody>   
             </table>
             <div>
